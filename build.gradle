@@ -20,6 +20,7 @@ dependencies {
     implementation group: 'com.graphql-java', name: 'graphql-spring-boot-starter', version: '5.0.2'
     implementation group: 'com.graphql-java', name: 'graphiql-spring-boot-starter', version: '5.0.2'
     implementation group: 'com.graphql-java', name: 'graphql-java-tools', version: '5.2.4'
+    implementation group: 'com.google.guava', name: 'guava', version: '28.1-jre'
     compileOnly 'org.projectlombok:lombok:1.18.8'
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
 }
